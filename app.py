@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 #  PAGE CONFIG
 # ===============================
 st.set_page_config(
-    page_title="Tags TXT File Generator",
+    page_title="Ad Tags TXT File Generator",
     page_icon="🧾",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -145,7 +145,7 @@ def authenticate():
     if st.session_state.authenticated:
         return
 
-    st.image("inmobi_logo.png", width=220)
+    st.image("excel_to_dcm_vast_txt_generator_tool.png", width=220)
     st.markdown("## 🔐 Secure Login")
     st.caption("Authorized users only")
 
@@ -171,9 +171,9 @@ authenticate()
 #  SIDEBAR
 # ===============================
 with st.sidebar:
-    st.image("inmobi_logo.png", width=160)
-    st.markdown("### 🎯 InMobi Glance")
-    st.caption("RMQA / SE Team")
+    st.image("excel_to_dcm_vast_txt_generator_tool.png", width=160)
+    st.markdown("### 🎯 Jatin Bhardwaj Project")
+    st.caption("Industry: Ad Tech  \nRole: Data Analyst  \nProject: Tags TXT Generator Tool")
     st.markdown("---")
 
     st.markdown("**🌗 Appearance**")
@@ -199,7 +199,7 @@ with st.sidebar:
 # ===============================
 #  HEADER
 # ===============================
-st.markdown("## 🧾 Tags TXT File Generator")
+st.markdown("## 🧾 Ad Tags TXT File Generator")
 st.caption("Convert Excel / CSV files into formatted TXT — fast & secure")
 st.markdown("---")
 
